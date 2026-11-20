@@ -4,7 +4,7 @@ extends Resource
 enum WeaponType {
 	RANGED,
 	MELEE,
-	AOE
+	AREA_OF_EFFECT
 }
 
 @export_category("Identifiers")
@@ -22,4 +22,6 @@ enum WeaponType {
 @export_category("Abilities")
 @export var primary_fire: WeaponBehavior
 @export var secondary_fire: WeaponBehavior
+
+# to be executed every tick
 @export var passive: WeaponBehavior

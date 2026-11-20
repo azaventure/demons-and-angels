@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="WeaponData" format=3 uid="uid://cajiju4on08bc"]
+
+[ext_resource type="Resource" uid="uid://k5eo1ynhcdak" path="res://Resources/Weapons/Wand/WandPrimaryFire.tres" id="1_nc0en"]
+[ext_resource type="Script" uid="uid://domg5c5oh4xey" path="res://Scripts/Resources/Weapons/WeaponData.gd" id="2_5k6c3"]
+[ext_resource type="PackedScene" uid="uid://jcg25n7s6dsb" path="res://Resources/Weapons/Wand/Scenes/WandHeld.tscn" id="3_5k6c3"]
+
+[resource]
+script = ExtResource("2_5k6c3")
+weapon_name = "Wand"
+weapon_scene = ExtResource("3_5k6c3")
+damage = 3
+speed = 2
+range = 5
+primary_fire = ExtResource("1_nc0en")
+metadata/_custom_type_script = "uid://domg5c5oh4xey"

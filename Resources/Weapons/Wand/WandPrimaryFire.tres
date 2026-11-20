@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="SingleFireRangedWeaponBehavior" format=3 uid="uid://k5eo1ynhcdak"]
+
+[ext_resource type="PackedScene" uid="uid://cwnm51lhq63" path="res://Resources/Weapons/Wand/Scenes/WandProjectile.tscn" id="1_heeoe"]
+[ext_resource type="Script" uid="uid://sswblfhebnu7" path="res://Scripts/Resources/Weapons/WeaponBehaviors/SingleFireRangedWeaponBehavior.gd" id="2_o1iif"]
+
+[resource]
+script = ExtResource("2_o1iif")
+projectile = ExtResource("1_heeoe")
+metadata/_custom_type_script = "uid://sswblfhebnu7"

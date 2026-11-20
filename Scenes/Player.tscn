@@ -4,6 +4,9 @@
 [ext_resource type="Resource" uid="uid://kr0guuwf2gb0" path="res://Resources/Bodies/TestBody.tres" id="2_kyqiw"]
 [ext_resource type="Texture2D" uid="uid://4perfl43o1ex" path="res://Sprites/Gothicvania/Characters/Dancing Girl Files/spritesheets/balancing.png" id="3_dewec"]
 [ext_resource type="Texture2D" uid="uid://piuxnkjkc8t2" path="res://Sprites/Gothicvania/Characters/Dancing Girl Files/spritesheets/skip.png" id="3_gntrk"]
+[ext_resource type="Script" uid="uid://kwnigosjmo7s" path="res://Scripts/WeaponManager.gd" id="5_bhhdu"]
+[ext_resource type="Script" uid="uid://domg5c5oh4xey" path="res://Scripts/Resources/Weapons/WeaponData.gd" id="6_megsn"]
+[ext_resource type="Resource" uid="uid://cajiju4on08bc" path="res://Resources/Weapons/Wand/Wand.tres" id="7_52ee3"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_glx4g"]
 atlas = ExtResource("3_dewec")
@@ -140,3 +143,8 @@ scale = Vector2(3.0897436, 3.0897436)
 sprite_frames = SubResource("SpriteFrames_g4v7s")
 animation = &"idle"
 frame_progress = 0.08376684
+
+[node name="WeaponManager" type="Node" parent="." unique_id=759955606]
+script = ExtResource("5_bhhdu")
+weapon_array = Array[ExtResource("6_megsn")]([ExtResource("7_52ee3")])
+metadata/_custom_type_script = "uid://kwnigosjmo7s"
